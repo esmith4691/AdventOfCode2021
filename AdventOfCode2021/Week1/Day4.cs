@@ -9,7 +9,7 @@ namespace AdventOfCode2021.Week1
 {
     public static class Day4
     {
-        public static void Day4a()
+        public static void Day4A()
         {
             var input = File.ReadAllText("./Inputs/Day4Input.txt").Split("\r\n\r\n");
 

@@ -10,7 +10,7 @@ namespace AdventOfCode2021.Week1
 {
     public static class Day5
     {
-        public static void Day5a()
+        public static void Day5A()
         {
             var input = File.ReadAllLines("./Inputs/Day5Input.txt");
             var coordinates = input.Select(line => line.Split(" -> ")).SelectMany(pair => GetCoordinatesInPath(new Coordinate(pair[0]), new Coordinate(pair[1]), false));
@@ -64,7 +64,7 @@ namespace AdventOfCode2021.Week1
 
             var result = coordinates.GroupBy(c => (c.X, c.Y)).Count(group => group.Count() >= 2);
 
-            Console.WriteLine($"Day5A: result = {result}");
+            Console.WriteLine($"Day5B: result = {result}");
         }
 
         [DebuggerDisplay("({X}, {Y})")]

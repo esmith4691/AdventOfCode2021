@@ -18,9 +18,9 @@ namespace AdventOfCode2021
             Day2.Day2B();
             Day3.Day3A();
             Day3.Day3B();
-            Day4.Day4a();
+            Day4.Day4A();
             Day4.Day4B();
-            Day5.Day5a();
+            Day5.Day5A();
             Day5.Day5B();
         }
     }
