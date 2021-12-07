@@ -24,6 +24,8 @@ namespace AdventOfCode2021
             Day5.Day5B();
             Day6.Day6A();
             Day6.Day6B();
+            Day7.Day7A();
+            Day7.Day7B();
         }
     }
 }
