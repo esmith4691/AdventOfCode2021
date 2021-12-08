@@ -41,7 +41,7 @@ namespace AdventOfCode2021.Week1
                 if (fuelToMove < lowestFuel) lowestFuel = fuelToMove;
             }
 
-            Console.WriteLine($"Day7A: result = {lowestFuel}");
+            Console.WriteLine($"Day7B: result = {lowestFuel}");
         }
 
         private static int GetFuelCost(int distance)
