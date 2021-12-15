@@ -36,6 +36,8 @@ namespace AdventOfCode2021
             Day11.Day11B();
             Day12.Day12A();
             Day12.Day12B();
+            Day13.Day13A();
+            Day13.Day13B();
         }
     }
 }
