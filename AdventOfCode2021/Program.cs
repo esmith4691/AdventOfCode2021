@@ -41,7 +41,9 @@ namespace AdventOfCode2021
             Day14.Day14A();
             Day14.Day14B();
             Day15.Day15A();
-            Day15.Day15B();
+            //Day15.Day15B(); - slow
+            Day16.Day16A();
+            Day16.Day16B();
         }
     }
 }
